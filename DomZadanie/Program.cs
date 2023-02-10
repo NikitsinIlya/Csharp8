@@ -58,26 +58,26 @@ MatrixSortStrok(matrix);
 PrintMatrix(matrix);
 */
 // Task 56
-// Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
-
-int SummaMinSroki(int[,] matrix)
+// Задайте прямоугольный двумерный массив. Напишите программу, 
+// которая будет находить строку с наименьшей суммой элементов.
+/*
+void SummaMinSroki(int[,] matrix)
 {
-    int MinSummElementov = 0, SaveI = 0, SummElementov = 0;;
-    for (int i = 0; i < matrix.GetLength(0); i++)
+    int SumElement = 0, MinSummElement = 1000, IndexMini = 0;
+   for (int i = 0; i < matrix.GetLength(0); i++)
+   {
+    SumElement = 0;
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        if (SummElementov < MinSummElementov)
-        {
-            MinSummElementov = SummElementov;
-            SaveI = i;
-        }
-        SummElementov = 0;
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            SummElementov = SummElementov + matrix[i, j];
-        }
-                
+        SumElement += matrix[i, j];
     }
-    return MinSummElementov;
+    if(SumElement < MinSummElement) 
+    {
+        MinSummElement = SumElement;
+        IndexMini = i;
+    }
+   } 
+   Console.WriteLine($" Номер строки с минимальной суммой элементов : {IndexMini + 1}");
 }
 Console.Write("Введите размеры массива через пробел: ");
 int[] size = Console.ReadLine().Split().Select(x => int.Parse(x)).ToArray();
@@ -85,4 +85,5 @@ int[,] matrix = new int[size[0], size[1]];
 InputMatrix(matrix);
 PrintMatrix(matrix);
 Console.WriteLine();
-Console.WriteLine($"Строка с наименьшей суммой элементов: {SummaMinSroki(matrix) + 1}");
+SummaMinSroki(matrix);
+*/
