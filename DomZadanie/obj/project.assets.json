@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Led\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\DomZadanie.csproj",
+      "projectUniqueName": "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\DomZadanie.csproj",
       "projectName": "DomZadanie",
-      "projectPath": "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\DomZadanie.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\obj\\",
+      "projectPath": "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\DomZadanie.csproj",
+      "packagesPath": "C:\\Users\\Led\\.nuget\\packages\\",
+      "outputPath": "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Led\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
