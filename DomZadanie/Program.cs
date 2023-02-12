@@ -230,7 +230,6 @@ void SpiralInputMatrix(int[,] matrix)
         matrix[x, j] = InputNumber;
         InputNumber++;
         i = x;
-        y++;
     }
 
     for (int x = j + 1; x < matrix.GetLength(1) - 1; x++)
@@ -238,21 +237,18 @@ void SpiralInputMatrix(int[,] matrix)
         matrix[i, x] = InputNumber;
         InputNumber++;
         j = x;
-        y++;
     }
     for (int x = i + 1; x < matrix.GetLength(0) - 1; x++)
     {
         matrix[x, j] = InputNumber;
         InputNumber++;
         i = x;
-        y++;
     }
     for (int x = j - 1; x > 0; x--)
     {
         matrix[i, x] = InputNumber;
         InputNumber++;
         j = x;
-        y++;
     }
 
 

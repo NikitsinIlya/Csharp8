@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\DomZadanie.csproj": {}
+    "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\DomZadanie.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\DomZadanie.csproj": {
+    "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\DomZadanie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\DomZadanie.csproj",
+        "projectUniqueName": "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\DomZadanie.csproj",
         "projectName": "DomZadanie",
-        "projectPath": "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\DomZadanie.csproj",
-        "packagesPath": "C:\\Users\\Led\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\CSharp\\seminar\\Csharp8\\DomZadanie\\obj\\",
+        "projectPath": "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\DomZadanie.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\GB\\SeminariCsh\\Csharp8\\DomZadanie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Led\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
